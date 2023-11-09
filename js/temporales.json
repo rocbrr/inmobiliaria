@@ -1,0 +1,32 @@
+[
+    {
+        "imagen": "../portfolio/hotel1.jpg",
+        "direccion": "Perú 255 Ciudad, Mendoza",
+        "detalles": "Habitación - 2 literas - 2 baños - 30m2"  
+    },
+    {
+        "imagen": "../portfolio/hotel2.jpg",
+        "direccion": "Catamarca 354 Ciudad, Mendoza",
+        "detalles": "Habitación matrimonial - 1 baño - c/cochera - 30m2"
+    },
+    {
+        "imagen": "../portfolio/hotel3.jpg",
+        "direccion": "Godoy Cruz 325 Guaymallén, Mendoza",
+        "detalles": "Monoambiente - 1 persona - 1 baño - 30m2"
+    },
+    {
+        "imagen": "../portfolio/hotel1.jpg",
+        "direccion": "Perú 255 Ciudad, Mendoza",
+        "detalles": "Habitación - 2 literas - 2 baños - 30m2"  
+    },
+    {
+        "imagen": "../portfolio/hotel2.jpg",
+        "direccion": "Catamarca 354 Ciudad, Mendoza",
+        "detalles": "Habitación matrimonial - 1 baño - c/cochera - 30m2"
+    },
+    {
+        "imagen": "../portfolio/hotel3.jpg",
+        "direccion": "Catamarca 354 Ciudad, Mendoza",
+        "detalles": "Monoambiente - 1 persona - 1 baño - 30m2"
+    }
+]

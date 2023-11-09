@@ -1,0 +1,37 @@
+  <div class="containers">
+            <div class="card">
+              <figure> 
+                <img src="assets/img/portfolio/depto1.jpg">
+              </figure>  
+              <div class="contenido">
+                <h3>Belgrano 234 Godoy Cruz, Mendoza</h3>
+                <p>Departamento - 4 personas
+                   - 2 ambientes - 2 baños - 60m2</p>
+                    <a href="departamento.html">Leer más</a>
+              </div>
+            </div>
+        </div>
+        <div class="containers">
+            <div class="card">
+              <figure> 
+                <img src="assets/img/portfolio/depto2.jpg">
+              </figure>  
+              <div class="contenido">
+                <h3>Catamarca 354 Ciudad, Mendoza</h3>
+                <p> Departamento - 2 personas - 1 baño - c/cochera - 50m2</p>
+                    <a href="departamento.html">Leer más</a>
+              </div>
+            </div>
+        </div>
+        <div class="containers">
+            <div class="card">
+              <figure> 
+                <img src="assets/img/portfolio/depto3.jpg">
+              </figure>  
+              <div class="contenido">
+                <h3>Dorrego 675 Guaymallén, Mendoza</h3>
+                <p> Monoambiente - 1 persona - 1 baño - 60m2</p>
+                    <a href="departamento.html">Leer más</a>
+              </div>
+            </div>
+        </div>
