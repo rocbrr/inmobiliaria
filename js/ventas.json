@@ -1,32 +1,20 @@
 [
     {
-        "imagen": "../portfolio/depto4.jpg",
+        "imagen": "../assets/img/portfolio/depto4.jpg",
         "direccion": "Beltrán 1854 Godoy Cruz, Mendoza",
+        "precio": 500.000,
         "detalles": "Departamento - 2 ambientes - 2 baños - 60m2"  
     },
     {
-        "imagen": "../portfolio/casa1.jpg",
+        "imagen": "../assets/img/portfolio/casa1.jpg",
         "direccion": "Catamarca 354 Ciudad, Mendoza",
+        "precio": 300.000,
         "detalles": "Casa - 1 baño - c/cochera - 50m2"
     },
     {
-        "imagen": "../portfolio/casa2.jpg",
+        "imagen": "../assets/img/portfolio/casa2.jpg",
         "direccion": "Dorrego 675 Guaymallén, Mendoza",
-        "detalles": "Casa - 1 persona - 1 baño - 60m2"
-    },
-    {
-        "imagen": "../portfolio/depto4.jpg",
-        "direccion": "Beltrán 1854 Godoy Cruz, Mendoza",
-        "detalles": "Departamento - 2 ambientes - 2 baños - 60m2"  
-    },
-    {
-        "imagen": "../portfolio/casa1.jpg",
-        "direccion": "Catamarca 354 Ciudad, Mendoza",
-        "detalles": "Casa - 1 baño - c/cochera - 50m2"
-    },
-    {
-        "imagen": "../portfolio/casa2.jpg",
-        "direccion": "Dorrego 675 Guaymallén, Mendoza",
+        "precio": 465.000,
         "detalles": "Casa - 1 persona - 1 baño - 60m2"
     }
 ]

@@ -17,6 +17,7 @@
         <link href="css/estilos.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/estilo.campo.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     
     </head>
     <body id="page-top">
@@ -32,36 +33,19 @@
             </div>
         </nav>
 
+        
         <div class="container-md">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Propiedades en alquiler</h2>
             </div>
         </div>
-
-        <input id="searchbar" onkeyup="search_alquileres()" type="text"
-        name="search" placeholder="Ingresa tu busqueda..">
-
-        <section class="alquileres">
-
-            <table class="lista">
-                <thead class="items">
-                    <tr>
-                        <th>Imagen</th>
-                        <th>Direccion</th>
-                        <th>Detalles</th>
-                    </tr>
-                </thead>
-                <tbody class="datos">
-                </tbody>
-            </table>
-    
-            <button id="boton_alqui" class="btn btn-dark">Alquiler</button>
-    
-        </section>
-    
+        <section>
+        <div id="resultados"></div>
+       
         
-        <script src="js/alquileres.js"></script>
+        <script src="js/alquileres.js" defer></script>
 
+    </section>
 
   <!-- Contact-->
   <section class="page-section" id="contact">

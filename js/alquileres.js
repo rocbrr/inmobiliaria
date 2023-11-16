@@ -1,56 +1,41 @@
-document.querySelector('#boton_alqui').addEventListener('click', traerDatos);
+document.addEventListener('DOMContentLoaded', function () {
+    cargarYMostrarDatos();
+});
 
-function traerDatos(){
+function cargarYMostrarDatos() {
+   
+    const xtp = new XMLHttpRequest();
 
-    const xhttp = new XMLHttpRequest();
+   
+    xtp.open('GET', '../js/alquileres.json', true);
 
-xhttp.open('GET', '..js/alquileres.json', true);
+    xtp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
 
+            const datos = JSON.parse(this.responseText);
 
-xhttp.send();
-
-xhttp.onreadystatechange = function(){
-    if(this.readyState == 4 && this.status == 200){
-        let datos = JSON.parse(this.responseText);
-        
-        let res = document.querySelector(".datos");
-        let res2 = document.querySelector(".items");
-        
-        for(clave in datos){
-            var arreglo = [];
-        for(item in datos[clave]){
-            arreglo.push(item);
-            res2.innerHTML += `
-            <th>${item.imagen}<th>
-            <th>${item.imagen}<th>
-            <th>${item.imagen}<th>
-            `;
+            
+            mostrarDatos(datos);
         }
-    }
-    res.innerHTML = '';
-    for(let item of datos){
-        res2.innerHTML += `
-        <td>${item.imagen}<td>
-        <td>${item.direccion}<td>
-        <td>${item.detalles}<td>
+    };
+    xtp.send();
+}
 
+function mostrarDatos(datos) {
+    
+    const resultadosDiv = document.getElementById('resultados');
+
+    resultadosDiv.innerHTML = '';
+
+    for (const item of datos) {
+        resultadosDiv.innerHTML += `
+            <div>
+                <img src="${item.imagen}" alt="Imagen">
+                <p>Dirección: ${item.direccion}</p>
+                <p>Precio: $${item.precio.toFixed(2)}</p>
+                <p>Detalles: ${item.detalles}</p>
+            </div>
+            <hr>
         `;
-    }
-}
-}
-}
-
-function search_alquileres() {
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('items');
-      
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display="none";
-        }
-        else {
-            x[i].style.display="list-item";                 
-        }
     }
 }

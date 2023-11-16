@@ -1,32 +1,20 @@
 [
     {
-        "imagen": "../portfolio/depto1.jpg",
+        "imagen": "../assets/img/portfolio/depto1.jpg",
         "direccion": "Belgrano 234 Godoy Cruz, Mendoza",
+        "precio": 70.000,
         "detalles": "Departamento - 4 personas- 2 ambientes - 2 baños - 60m2"  
     },
     {
-        "imagen": "../portfolio/depto2.jpg",
+        "imagen": "../assets/img/portfolio/depto2.jpg",
         "direccion": "Catamarca 354 Ciudad, Mendoza",
+        "precio": 75.000,
         "detalles": "Departamento - 2 personas - 1 baño - c/cochera - 50m2"
     },
     {
-        "imagen": "../portfolio/depto3.jpg",
+        "imagen": "../assets/img/portfolio/depto3.webp",
         "direccion": "Dorrego 675 Guaymallén, Mendoza",
-        "detalles": "Monoambiente - 1 persona - 1 baño - 60m2"
-    },
-    {
-        "imagen": "../portfolio/depto1.jpg",
-        "direccion": "Belgrano 234 Godoy Cruz, Mendoza",
-        "detalles": "Departamento - 4 personas- 2 ambientes - 2 baños - 60m2"  
-    },
-    {
-        "imagen": "../portfolio/depto2.jpg",
-        "direccion": "Catamarca 354 Ciudad, Mendoza",
-        "detalles": "Departamento - 2 personas - 1 baño - c/cochera - 50m2"
-    },
-    {
-        "imagen": "../portfolio/depto3.jpg",
-        "direccion": "Dorrego 675 Guaymallén, Mendoza",
+        "precio": 80.000,
         "detalles": "Monoambiente - 1 persona - 1 baño - 60m2"
     }
 ]
